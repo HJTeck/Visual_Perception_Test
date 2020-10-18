@@ -1,0 +1,49 @@
+Language model created by QuickLM on Sun May  3 14:30:06 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=12
+ngram 3=6
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.5563 CAN-YOU-SPEAK -0.2218
+-1.5563 COME-FOLLOW-ME -0.2218
+-1.5563 GOOD-MORNING-HOW-ARE-YOU-RIGHT-NOW -0.2218
+-1.5563 HELLO-WHERE-ARE-YOU -0.2218
+-1.5563 INTRODUCE-YOURSELF-PLEASE -0.2218
+-1.5563 WHAT-IS-THE-CURE-FOR-LONELINESS -0.2218
+
+\2-grams:
+-1.0792 <s> CAN-YOU-SPEAK 0.0000
+-1.0792 <s> COME-FOLLOW-ME 0.0000
+-1.0792 <s> GOOD-MORNING-HOW-ARE-YOU-RIGHT-NOW 0.0000
+-1.0792 <s> HELLO-WHERE-ARE-YOU 0.0000
+-1.0792 <s> INTRODUCE-YOURSELF-PLEASE 0.0000
+-1.0792 <s> WHAT-IS-THE-CURE-FOR-LONELINESS 0.0000
+-0.3010 CAN-YOU-SPEAK </s> -0.3010
+-0.3010 COME-FOLLOW-ME </s> -0.3010
+-0.3010 GOOD-MORNING-HOW-ARE-YOU-RIGHT-NOW </s> -0.3010
+-0.3010 HELLO-WHERE-ARE-YOU </s> -0.3010
+-0.3010 INTRODUCE-YOURSELF-PLEASE </s> -0.3010
+-0.3010 WHAT-IS-THE-CURE-FOR-LONELINESS </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CAN-YOU-SPEAK </s>
+-0.3010 <s> COME-FOLLOW-ME </s>
+-0.3010 <s> GOOD-MORNING-HOW-ARE-YOU-RIGHT-NOW </s>
+-0.3010 <s> HELLO-WHERE-ARE-YOU </s>
+-0.3010 <s> INTRODUCE-YOURSELF-PLEASE </s>
+-0.3010 <s> WHAT-IS-THE-CURE-FOR-LONELINESS </s>
+
+\end\
